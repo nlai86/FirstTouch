@@ -58,7 +58,7 @@ export default function TeamCard({
 
 const styles = StyleSheet.create({
   card: {
-    width: screenWidth * 0.8, // 80% of screen
+    width: screenWidth * 0.9, // 90% of screen
     backgroundColor: "white",
     borderRadius: 12,
     shadowColor: "#000",
