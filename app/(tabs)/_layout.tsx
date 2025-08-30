@@ -34,17 +34,17 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="following"
-        options={{
-          title: 'Following',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="star.fill" color={color} />,
-        }}
-      />
-      <Tabs.Screen
         name="fixtures"
         options={{
           title: 'Fixtures',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="calendar" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="following"
+        options={{
+          title: 'Following',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="star.fill" color={color} />,
         }}
       />
       <Tabs.Screen
